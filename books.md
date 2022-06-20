@@ -1,0 +1,19 @@
+# Books
+
+## Recommended Reading
+- 15 Secrets Successful People Know About Time Management – Kevin Kruse
+- Make Time – Jake Knapp and John Zeratsky
+- Atomic Habits - James Clear
+- The First 90 Days – Michael Watkins
+- Radical Candor - Kim Scott
+- Leaders Eat Last – Simon Sinek
+- How to Win Friends & Influence People – Dale Carnegie
+- The Phoenix Project - Gene Kim and Kevin Behr
+
+## Next To Read
+- What The Heck Is EOS? - Gino Wickman and Tom Bouwer
+- Clean Code - Bob Martin
+- Steal Like An Arist - Austin Kleon
+- Show Your Work - Austin Kleon
+- Keep Going - Austin Kleon
+- Drive: The Surprising Truth about What Motivates Us - Daniel Pink
