@@ -32,3 +32,12 @@
 
 ## Tech Debt 
 ![](/images/tech-debt.png)
+
+## [Gitflow Branching Model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+![](/images/gitflow-branching-model.svg)
+
+## [Gitflow Branching Model](https://www.toptal.com/software/trunk-based-development-git-flow)
+![](/images/gitflow-branching-model.PNG)
+
+## [Trunk-Based Development Branching Model](https://www.toptal.com/software/trunk-based-development-git-flow)
+![](/images/trunk-based-development-branching-model.PNG)
