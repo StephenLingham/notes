@@ -9,3 +9,4 @@
   4. [Existential Flexibility](https://www.youtube.com/watch?v=OPjqCLLqLlg)
   5. [Courage to Lead](https://www.youtube.com/watch?v=gPcgEBbNQvw)
 - [The Agile Manifesto](https://agilemanifesto.org/principles.html)
+- [Character Mix & Match Icebreaker - Facilitator School](https://www.facilitator.school/blog/character-mix-match-miro-icebreaker)
