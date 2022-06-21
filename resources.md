@@ -1,5 +1,6 @@
 # Resources
 - [Spotify Engineering Culture - Henrik Kniberg](https://www.youtube.com/watch?v=Yvfz4HGtoPc)
+- [Spotify Retro Kit](https://engineering.atspotify.com/wp-content/uploads/sites/2/2017/12/retro-kit3.pdf)
 - [The Amazing If toolkit](https://www.amazingif.com/toolkit/)
 - [L.I.O.N Framework - Alan Smith](https://alansmith.actioncoach.co.uk/wp-content/uploads/sites/25/2019/03/L.I.O.N-MEETING-FRAMEWORK-EXPLAINED.pdf)
 - The Five Practices - Simon Sinek
