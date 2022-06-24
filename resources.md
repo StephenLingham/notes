@@ -11,3 +11,4 @@
   5. [Courage to Lead](https://www.youtube.com/watch?v=gPcgEBbNQvw)
 - [The Agile Manifesto](https://agilemanifesto.org/principles.html)
 - [Character Mix & Match Icebreaker - Facilitator School](https://www.facilitator.school/blog/character-mix-match-miro-icebreaker)
+- [Summary of Clean Code by Bob Martin](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
