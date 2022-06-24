@@ -9,9 +9,9 @@
 - Leaders Eat Last – Simon Sinek
 - How to Win Friends & Influence People – Dale Carnegie
 - The Phoenix Project - Gene Kim and Kevin Behr
+- What The Heck Is EOS? - Gino Wickman and Tom Bouwer
 
 ## Next To Read
-- What The Heck Is EOS? - Gino Wickman and Tom Bouwer
 - Clean Code - Bob Martin
 - Steal Like An Arist - Austin Kleon
 - Show Your Work - Austin Kleon
