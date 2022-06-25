@@ -41,3 +41,12 @@
 
 ## [Trunk-Based Development Branching Model](https://www.toptal.com/software/trunk-based-development-git-flow)
 ![](/images/trunk-based-development-branching-model.PNG)
+
+## [Monolith vs Microservices](https://www.flagship.io/migrating-from-monolith-to-microservices/)
+![](/images/monolith-vs-microservices.png)
+
+## [Contract Testing](https://www.youtube.com/watch?v=IetyhDr48RI)
+![](/images/contract-testing-2.png)
+
+## [Contract Testing](https://www.youtube.com/watch?v=KPu5VK8AP4E)
+![](/images/contract-testing.png)
