@@ -49,4 +49,4 @@
 ![](/images/contract-testing-2.png)
 
 ## [Contract Testing](https://www.youtube.com/watch?v=KPu5VK8AP4E)
-![](/images/contract-testing.png)
+![](/images/contract-testing.PNG)
