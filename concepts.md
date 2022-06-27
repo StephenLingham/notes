@@ -50,3 +50,9 @@
 
 ## [Contract Testing](https://www.youtube.com/watch?v=KPu5VK8AP4E)
 ![](/images/contract-testing.PNG)
+
+## [N-Layer Architecture](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)
+![](/images/n-layer-architecture.png)
+
+## [Domain Driven Design](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
+![](/images/domain-driven-design-microservice.png)
