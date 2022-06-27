@@ -59,3 +59,9 @@
 
 ## [CQRS](https://www.c-sharpcorner.com/article/implementing-cqrs-with-mediatr-in-asp-net-core-application/)
 ![](/images/CQRS.png)
+
+## [Clean Architecture - Bob Martin](https://nishanc.medium.com/clean-architecture-net-core-part-1-introduction-e70e1c49ef6)
+![](/images/clean-architecture.jpg)
+
+## [Event Driven Architecture](https://www.linkedin.com/pulse/event-driven-architecture-using-kafka-kunal-mohanta/)
+![](/images/event-driven-architecture.png)
