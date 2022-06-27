@@ -10,10 +10,8 @@
 - How to Win Friends & Influence People – Dale Carnegie
 - The Phoenix Project - Gene Kim and Kevin Behr
 - What The Heck Is EOS? - Gino Wickman and Tom Bouwer
+- Steal Like An Arist - Austin Kleon
 
 ## Next To Read
 - Clean Code - Bob Martin
-- Steal Like An Arist - Austin Kleon
-- Show Your Work - Austin Kleon
-- Keep Going - Austin Kleon
 - Drive: The Surprising Truth about What Motivates Us - Daniel Pink
