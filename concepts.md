@@ -9,6 +9,9 @@
 ## Radical Candor - Kim Scott 
 ![](/images/radical-candor.jpg)
 
+## [Drive: Autonomy, Mastery and Purpose - Dan Pink](https://www.youtube.com/watch?v=rrkrvAUbU9Y)
+![](/images/drive.jpg)
+
 ## Autonomy and Alignment - Henrik Kniberg 
 ![](/images/autonomy-and-alignment-henrik-kniberg.PNG)
 
