@@ -11,7 +11,14 @@
 - The Phoenix Project - Gene Kim and Kevin Behr
 - What The Heck Is EOS? - Gino Wickman and Tom Bouwer
 - Steal Like An Arist - Austin Kleon
-
-## Next To Read
+- Show Your Work - Austin Kleon
 - Clean Code - Bob Martin
 - Drive: The Surprising Truth about What Motivates Us - Daniel Pink
+
+## Next To Read
+- The Five Dysfunctions of a Team - Patrick Lencioni
+- The Infinite Game - Simon Sinek
+- Domain Driven Design - Jim Lewis
+- The Pragmatic Programmer - David Thomas & Andrew Hunt
+- Clean Architecture - Bob Martin
+- Microservices Patterns - Chris Richardson
