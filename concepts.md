@@ -80,3 +80,6 @@
 
 ## Test Pyramid
 ![](/images/test-pyramid-2.png)
+
+## SQL Joins
+![](/images/sql-joins.jpg)
