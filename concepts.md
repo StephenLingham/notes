@@ -83,3 +83,6 @@
 
 ## SQL Joins
 ![](/images/sql-joins.jpg)
+
+## Reference Types vs Value Types
+![](/images/reference-types-vs-value-types.gif)
