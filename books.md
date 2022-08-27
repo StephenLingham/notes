@@ -14,10 +14,10 @@
 - Show Your Work - Austin Kleon
 - Clean Code - Bob Martin
 - Drive: The Surprising Truth about What Motivates Us - Daniel Pink
-
-## Next To Read
 - The Five Dysfunctions of a Team - Patrick Lencioni
 - The Infinite Game - Simon Sinek
+
+## Next To Read
 - Domain Driven Design - Jim Lewis
 - The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Clean Architecture - Bob Martin
