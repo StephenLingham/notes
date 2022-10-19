@@ -69,6 +69,9 @@
 ## [Event Driven Architecture](https://www.linkedin.com/pulse/event-driven-architecture-using-kafka-kunal-mohanta/)
 ![](/images/event-driven-architecture.png)
 
+## Software Design Stack
+![](/images/software-design-stack.jpg)
+
 ## [Contract Testing](https://www.youtube.com/watch?v=IetyhDr48RI)
 ![](/images/contract-testing-2.png)
 
