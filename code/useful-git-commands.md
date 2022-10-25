@@ -1,6 +1,7 @@
 # Useful Git Commands
 - `git log` - View the commit history
 - `git reflog` - View the history of reference changes
+- `git checkout -b "branch name"` - Creates a new branch off of the current branch
 - `git branch -vv` - View which remote branches that local branches are tracking
 - `git branch -u origin/name-of-branch` - Sets the upstream for a local branch to track a remote branch
 - `git push -u origin HEAD` - Creates a remote branch with the same name as the local branch, sets the local branch to track the remote branch, then pushes the local branch to the remote branch
