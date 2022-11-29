@@ -84,6 +84,9 @@
 ## Test Pyramid
 ![](/images/test-pyramid-2.png)
 
+## [Shift Left Testing](https://www.browserstack.com/guide/what-is-shift-left-testing)
+![](/images/shifting-left.jpg)
+
 ## SQL Joins
 ![](/images/sql-joins.jpg)
 
