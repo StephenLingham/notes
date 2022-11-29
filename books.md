@@ -18,6 +18,7 @@
 - The Infinite Game - Simon Sinek
 
 ## Next To Read
+- Fundamentals of Software Architecture - Mark Richards & Neal Ford
 - Domain Driven Design - Jim Lewis
 - The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Clean Architecture - Bob Martin

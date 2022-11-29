@@ -57,6 +57,9 @@
 ## [N-Layer Architecture](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)
 ![](/images/n-layer-architecture.png)
 
+## [Domain Driven Design](https://khalilstemmler.com/articles/domain-driven-design-intro/#building-blocks)
+![](/images/domain-driven-design.svg)
+
 ## [Domain Driven Design](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
 ![](/images/domain-driven-design-microservice.png)
 
