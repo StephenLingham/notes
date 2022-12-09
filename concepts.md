@@ -51,6 +51,9 @@
 ## [Trunk-Based Development Branching Model](https://www.toptal.com/software/trunk-based-development-git-flow)
 ![](/images/trunk-based-development-branching-model.PNG)
 
+## [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+![](/images/kubernetes-components.svg)
+
 ## [Monolith vs Microservices](https://www.flagship.io/migrating-from-monolith-to-microservices/)
 ![](/images/monolith-vs-microservices.png)
 
