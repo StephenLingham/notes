@@ -51,7 +51,7 @@ Function GitStatus {
 set-alias gs GitStatus
 
 Function GitStageAll {
-    git stage .
+    git stage -A
 }
 
 set-alias gsa GitStageAll
