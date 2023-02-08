@@ -1,10 +1,11 @@
 # Books
 
 ## Recommended Reading
-- 15 Secrets Successful People Know About Time Management – Kevin Kruse
-- Make Time – Jake Knapp and John Zeratsky
-- Atomic Habits - James Clear
-- The First 90 Days – Michael Watkins
+- ### Time Management
+  - 15 Secrets Successful People Know About Time Management – Kevin Kruse
+  - Make Time – Jake Knapp and John Zeratsky
+  - Atomic Habits - James Clear
+  - The First 90 Days – Michael Watkins
 - Radical Candor - Kim Scott
 - Leaders Eat Last – Simon Sinek
 - How to Win Friends & Influence People – Dale Carnegie
