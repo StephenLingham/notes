@@ -14,7 +14,7 @@
   - Drive: The Surprising Truth about What Motivates Us - Daniel Pink
   - The Five Dysfunctions of a Team - Patrick Lencioni
 - ### Software Design
-  - Clean Code - Bob Martin
+  - Clean Code - Robert C. Martin
 - ### DevOps
   - The Phoenix Project - Gene Kim and Kevin Behr
 - ### Other
