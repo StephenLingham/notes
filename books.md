@@ -23,3 +23,4 @@
 - The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Clean Architecture - Bob Martin
 - Microservices Patterns - Chris Richardson
+- Accelerate: Building and Scaling High Performing Technology Organizations - Nicole Forsgren, Jez Humble, Gene Kim
