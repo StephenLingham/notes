@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet 
+  Name="Code analyzer rules" 
+  Description="This ruleset includes rules for the Sonar, StyleCop and Microsoft code analyzers"
+  ToolsVersion="15.0">
+
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1001" Action="Warning" />
+    <Rule Id="CA1009" Action="Warning" />
+    <Rule Id="CA1016" Action="Warning" />
+    <Rule Id="CA1033" Action="Warning" />
+    <Rule Id="CA1049" Action="Warning" />
+    <Rule Id="CA1060" Action="Warning" />
+    <Rule Id="CA1061" Action="Warning" />
+    <Rule Id="CA1063" Action="Warning" />
+    <Rule Id="CA1301" Action="Warning" />
+    <Rule Id="CA1400" Action="Warning" />
+    <Rule Id="CA1401" Action="Warning" />
+    <Rule Id="CA1403" Action="Warning" />
+    <Rule Id="CA1404" Action="Warning" />
+    <Rule Id="CA1405" Action="Warning" />
+    <Rule Id="CA1410" Action="Warning" />
+    <Rule Id="CA1415" Action="Warning" />
+    <Rule Id="CA1821" Action="Warning" />
+    <Rule Id="CA1900" Action="Warning" />
+    <Rule Id="CA1901" Action="Warning" />
+    <Rule Id="CA2002" Action="Warning" />
+    <Rule Id="CA2101" Action="Warning" />
+    <Rule Id="CA2108" Action="Warning" />
+    <Rule Id="CA2111" Action="Warning" />
+    <Rule Id="CA2112" Action="Warning" />
+    <Rule Id="CA2114" Action="Warning" />
+    <Rule Id="CA2116" Action="Warning" />
+    <Rule Id="CA2117" Action="Warning" />
+    <Rule Id="CA2122" Action="Warning" />
+    <Rule Id="CA2123" Action="Warning" />
+    <Rule Id="CA2124" Action="Warning" />
+    <Rule Id="CA2126" Action="Warning" />
+    <Rule Id="CA2131" Action="Warning" />
+    <Rule Id="CA2132" Action="Warning" />
+    <Rule Id="CA2133" Action="Warning" />
+    <Rule Id="CA2134" Action="Warning" />
+    <Rule Id="CA2137" Action="Warning" />
+    <Rule Id="CA2138" Action="Warning" />
+    <Rule Id="CA2140" Action="Warning" />
+    <Rule Id="CA2141" Action="Warning" />
+    <Rule Id="CA2146" Action="Warning" />
+    <Rule Id="CA2147" Action="Warning" />
+    <Rule Id="CA2149" Action="Warning" />
+    <Rule Id="CA2200" Action="Warning" />
+    <Rule Id="CA2202" Action="Warning" />
+    <Rule Id="CA2207" Action="Warning" />
+    <Rule Id="CA2212" Action="Warning" />
+    <Rule Id="CA2213" Action="Warning" />
+    <Rule Id="CA2214" Action="Warning" />
+    <Rule Id="CA2216" Action="Warning" />
+    <Rule Id="CA2220" Action="Warning" />
+    <Rule Id="CA2229" Action="Warning" />
+    <Rule Id="CA2231" Action="Warning" />
+    <Rule Id="CA2232" Action="Warning" />
+    <Rule Id="CA2235" Action="Warning" />
+    <Rule Id="CA2236" Action="Warning" />
+    <Rule Id="CA2237" Action="Warning" />
+    <Rule Id="CA2238" Action="Warning" />
+    <Rule Id="CA2240" Action="Warning" />
+    <Rule Id="CA2241" Action="Warning" />
+    <Rule Id="CA2242" Action="Warning" />
+    <Rule Id="CA1065" Action="None" /> <!-- NotImplementedException should not be raised in a property -->
+    <Rule Id="CA2100" Action="None" /> <!-- Review if the query string accepts any user input -->
+  </Rules>
+
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1116" Action="Warning" /> <!-- Split parameters should start on line after declaration -->
+    <Rule Id="SA1402" Action="Warning" /> <!-- File may only contain a single type -->
+    <Rule Id="SA1122" Action="Warning" /> <!-- Use string.Empty for empty strings -->
+    <Rule Id="SA1401" Action="Warning" /> <!-- Fields should be private -->
+    <Rule Id="SA1203" Action="Warning" /> <!-- Constants should appear before fields -->
+    <Rule Id="SA1214" Action="Warning" /> <!-- Readonly fields should appear before non-readonly fields -->
+    <Rule Id="SA1000" Action="None" /> <!-- The keyword 'new' should be followed by a space -->
+    <Rule Id="SA1600" Action="None" /> <!-- Elements should be documented -->
+    <Rule Id="SA1633" Action="None" /> <!-- File should have header -->
+    <Rule Id="SA0001" Action="None" /> <!-- XML comments -->
+    <Rule Id="SA1101" Action="None" /> <!-- Prefix local calls with this -->
+    <Rule Id="SA1407" Action="None" /> <!-- Arithmetic expressions should declare precedence -->
+    <Rule Id="SA1309" Action="None" /> <!-- Field names should not begin with underscore -->
+    <Rule Id="SA1204" Action="None" /> <!-- Static elements should appear before instance elements -->
+    <Rule Id="SA1604" Action="None" /> <!-- Element documentation should have summary -->
+    <Rule Id="SA1516" Action="None" /> <!-- Elements should be separated by blank line -->
+    <Rule Id="SA1649" Action="None" /> <!-- File name should match first type name -->
+    <Rule Id="SA1128" Action="None" /> <!-- Put constructor initializers on their own line -->
+    <Rule Id="SA1413" Action="None" /> <!-- Use trailing comma in multi-line initializers -->
+    <Rule Id="SA1117" Action="None" /> <!-- Parameters should be on same line or separate lines -->
+    <Rule Id="SA1602" Action="None" /> <!-- Enumeration items should be documented -->
+    <Rule Id="SA1108" Action="None" /> <!-- Block statements should not contain embedded comments -->
+    <Rule Id="SA1601" Action="None" /> <!-- Partial elements should be documented -->
+    <Rule Id="SA1404" Action="None" /> <!-- Code analysis suppression should have justification -->
+    <Rule Id="SA1515" Action="None" /> <!-- Single-line comment should be preceded by blank line -->
+    <Rule Id="SA1512" Action="None" /> <!-- Single-line comments should not be followed by blank line -->
+    <Rule Id="SA1005" Action="None" /> <!-- Single-line comment should begin with a space -->
+    <Rule Id="SA1118" Action="None" /> <!-- Parameter should not span multiple lines -->
+    <Rule Id="SA1127" Action="None" /> <!-- Generic type constraints should be on their own line -->
+    <Rule Id="SA1132" Action="None" /> <!-- Do not combine fields -->
+    <Rule Id="SA1501" Action="None" /> <!-- Statement should not be on a single line -->
+    <Rule Id="SA1502" Action="None" /> <!-- Element should not be on a single line -->
+    <Rule Id="SA1133" Action="None" /> <!-- Do not combine attributes -->
+    <Rule Id="SA1202" Action="None" /> <!-- Elements should be ordered by access -->
+    <Rule Id="SA1201" Action="None" /> <!-- Elements should appear in the correct order -->
+    <Rule Id="SA1200" Action="None" /> <!-- Using directives should appear within a namespace declaration -->
+    <Rule Id="SA1208" Action="None" /> <!-- System using directives must be placed before other using directives -->
+    <Rule Id="SA1623" Action="None" /> <!-- Property summary documentation must match accessors -->
+    <Rule Id="SA1629" Action="None" /> <!-- Documentation text must end with a period -->
+    <Rule Id="SA1611" Action="None" /> <!-- Element parameters must be documented -->
+    <Rule Id="SA1615" Action="None" /> <!-- Element return value must be documented -->
+  </Rules>
+
+  <Rules AnalyzerId="SonarAnalyzer.CSharp" RuleNamespace="SonarAnalyzer.CSharp">
+    <Rule Id="S3358" Action="None" /> <!-- Extract this nested ternary operation into an independent statement. -->
+    <Rule Id="S1643" Action="None" /> <!-- Use a StringBuilder instead. -->
+    <Rule Id="S1168" Action="None" /> <!-- Return an empty collection instead of null. -->
+    <Rule Id="S125"  Action="None" /> <!-- Remove this commented out code. -->
+    <Rule Id="S3376" Action="None" /> <!-- Make this class name end with 'Attribute'. -->
+    <Rule Id="S1135" Action="None" /> <!-- Complete the task associated to this 'TODO' comment. -->
+    <Rule Id="S3220" Action="None" /> <!-- Review this call, which partially matches an overload without 'params'. -->
+    <Rule Id="S3267" Action="None" /> <!-- Loops should be simplified with "LINQ" expressions -->
+    <Rule Id="S1075" Action="None" /> <!-- Refactor your code not to use hardcoded absolute paths or URIs. -->
+  </Rules>
+
+</RuleSet>
