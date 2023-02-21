@@ -22,7 +22,11 @@ set-alias e OpenCurrentDirectoryWithFileExplorer
 
 set-alias p pwd
 
-set-alias l ls
+Function ListAllIncludingHidden {
+    ls -Force
+}
+
+set-alias l ListAllIncludingHidden
 
 Function U {
     cd ..
