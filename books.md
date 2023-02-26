@@ -26,6 +26,6 @@
 - Fundamentals of Software Architecture - Mark Richards & Neal Ford
 - Domain Driven Design - Jim Lewis
 - The Pragmatic Programmer - David Thomas & Andrew Hunt
-- Clean Architecture - Bob Martin
+- Clean Architecture - Robert C. Martin
 - Microservices Patterns - Chris Richardson
 - Accelerate: Building and Scaling High Performing Technology Organizations - Nicole Forsgren, Jez Humble, Gene Kim
