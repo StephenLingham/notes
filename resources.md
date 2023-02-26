@@ -17,3 +17,7 @@
   - https://skribbl.io/
   - https://scattergoriesonline.net/
   - https://www.haxball.com/
+  - https://colonist.io/
+  - https://avalon.fun/
+  - Jackbox Games
+  - Among Us
