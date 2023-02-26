@@ -25,8 +25,8 @@
 ## Next To Read
 - Fundamentals of Software Architecture - Mark Richards & Neal Ford
 - Domain Driven Design - Jim Lewis
-- The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Clean Architecture - Robert C. Martin
+- The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Microservices Patterns - Chris Richardson
 - Building Microservices - Sam Newman
 - Accelerate: Building and Scaling High Performing Technology Organizations - Nicole Forsgren, Jez Humble, Gene Kim
