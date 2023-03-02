@@ -93,6 +93,12 @@
 ## [Shift Left Testing](https://www.browserstack.com/guide/what-is-shift-left-testing)
 ![](/images/shifting-left.jpg)
 
+## [Accelerate - 24 Key Capabilities](https://tdevroome.medium.com/book-summary-accelerate-c531efe4c34c)
+![](/images/accelerate-24-key-capabilities.webp)
+
+## [Westrum Culture](https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/)
+![](/images/westrum-culture.png)
+
 ## SQL Joins
 ![](/images/sql-joins.jpg)
 

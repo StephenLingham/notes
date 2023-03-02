@@ -13,6 +13,7 @@
 - [Character Mix & Match Icebreaker - Facilitator School](https://www.facilitator.school/blog/character-mix-match-miro-icebreaker)
 - [Summary of Clean Code by Bob Martin](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 - [Summary of 97 Things Every Programmer Should Know by Kevlin Henney](https://github.com/97-things/97-things-every-programmer-should-know/blob/master/en/SUMMARY.md)
+- [Summary of the 24 key capabilities from Accelerate](https://roman.pt/posts/accelerate/accelerate-key-capabilities.pdf)
 - Games for fun team building sessions
   - https://skribbl.io/
   - https://scattergoriesonline.net/
