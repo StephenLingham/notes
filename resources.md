@@ -15,6 +15,10 @@
   - [Summary of Clean Code by Bob Martin](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
   - [Summary of 97 Things Every Programmer Should Know by Kevlin Henney](https://github.com/97-things/97-things-every-programmer-should-know/blob/master/en/SUMMARY.md)
   - [Summary of the 24 key capabilities from Accelerate](https://roman.pt/posts/accelerate/accelerate-key-capabilities.pdf)
+  - Summaries of Fundamentals of Software Architecture
+    - [Yoan Thirion's summary](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/fundamentals-of-software-architecture)
+    - [Zhang Jun's summary](https://github.com/zhangjunhd/reading-notes/blob/master/software/FundamentalsOfSoftwareArchitecture.md)
+    - [Dan Lebrero's summary](https://danlebrero.com/2021/11/17/fundamentals-of-software-architecture-summary/)
 - Games for fun team building sessions
   - https://skribbl.io/
   - https://scattergoriesonline.net/
