@@ -54,6 +54,9 @@
 ## [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
 ![](/images/kubernetes-components.svg)
 
+## MACH Architecture
+![](/images/mach-architecture.png)
+
 ## [Monolith vs Microservices](https://www.flagship.io/migrating-from-monolith-to-microservices/)
 ![](/images/monolith-vs-microservices.png)
 
