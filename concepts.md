@@ -102,6 +102,9 @@
 ## [Westrum Culture](https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/)
 ![](/images/westrum-culture.png)
 
+## [Kaizen Continuous Improvement](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement)
+![](/images/kaizen-continuous-improvement.png)
+
 ## SQL Joins
 ![](/images/sql-joins.jpg)
 
