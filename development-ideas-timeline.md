@@ -1,0 +1,13 @@
+# Development Ideas Timeline
+- 2001
+  - The Agile Manifesto was published
+- 2005
+  - Hexagonal Architecture aka Ports and Adapters architecture was coined by Alistair Cockburn
+- 2008
+  - Onion Architecture was introduced by Jeffrey Palermo in a [blog post](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
+- 2012
+  - Clean Architecture was introduced by Robert Martin in a [blog post](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- 2013
+  - The Phoenix Project book was published
+- 2017
+  - Robert Martin's Clean Architecture book was published
