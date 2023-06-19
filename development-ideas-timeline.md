@@ -1,6 +1,10 @@
 # Development Ideas Timeline
+- 1994
+  - Design Patterns: Elements of Reusable Object-Oriented Software by authors known as the Gang of Four was published
 - 2001
   - The Agile Manifesto was published
+- 2003
+  - Domain Driver Design by Eric Evans was published
 - 2005
   - Hexagonal Architecture aka Ports and Adapters architecture was coined by Alistair Cockburn
 - 2008
