@@ -18,3 +18,7 @@
   - Implementing Domain-Driven Design by Vernon Vaughn was published
 - 2017
   - Robert Martin's Clean Architecture book was published
+- 2020
+  - Fundamentals of Software Architecture: An Engineering Approach by Mark Richards and Neal Ford was published
+- 2021 
+  - Software Architecture: The Hard Parts by Mark Richards and Neal Ford was published
