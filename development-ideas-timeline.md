@@ -1,4 +1,4 @@
-# Development Ideas Timeline
+# Software Development Ideas Timeline
 - 1994
   - **Design Patterns: Elements of Reusable Object-Oriented Software** by the authors known as the **Gang of Four** was published
 - 1999
