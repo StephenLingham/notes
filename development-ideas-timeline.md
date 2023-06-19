@@ -1,12 +1,14 @@
 # Development Ideas Timeline
 - 1994
-  - Design Patterns: Elements of Reusable Object-Oriented Software by authors known as the Gang of Four was published
+  - Design Patterns: Elements of Reusable Object-Oriented Software by the authors known as the Gang of Four was published
+- 2002
+  - Patterns of Enterprise Application Architecture by Martin Fowler was published
 - 2001
   - The Agile Manifesto was published
 - 2003
-  - Domain Driver Design by Eric Evans was published
+  - Domain Driven Design by Eric Evans was published
 - 2005
-  - Hexagonal Architecture aka Ports and Adapters architecture was coined by Alistair Cockburn
+  - Hexagonal Architecture aka Ports and Adapters architecture was introduced by Alistair Cockburn
 - 2008
   - Onion Architecture was introduced by Jeffrey Palermo in a [blog post](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
 - 2012
