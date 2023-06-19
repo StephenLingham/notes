@@ -11,6 +11,7 @@
   - Hexagonal Architecture aka Ports and Adapters architecture was introduced by Alistair Cockburn
 - 2008
   - Onion Architecture was introduced by Jeffrey Palermo in a [blog post](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
+  - Clean Code by Robert Martin was published
 - 2012
   - Clean Architecture was introduced by Robert Martin in a [blog post](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - 2013
