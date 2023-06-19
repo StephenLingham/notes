@@ -16,6 +16,8 @@
 - 2013
   - The Phoenix Project book was published
   - Implementing Domain-Driven Design by Vernon Vaughn was published
+- 2015
+  - Building Microservices by Sam Newman was published
 - 2017
   - Robert Martin's Clean Architecture book was published
 - 2020
