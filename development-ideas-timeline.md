@@ -29,6 +29,7 @@
   - **Clean Architecture** by **Robert Martin** book was published
 - 2018
   - **Accelerate: The Science of Lean Software and DevOps** was published
+  - **Microservices Patterns** by **Chris Richardson** was published
 - 2020
   - **Fundamentals of Software Architecture: An Engineering Approach** by **Mark Richards** and **Neal Ford** was published
 - 2021 
