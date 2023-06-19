@@ -15,5 +15,6 @@
   - Clean Architecture was introduced by Robert Martin in a [blog post](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - 2013
   - The Phoenix Project book was published
+  - Implementing Domain-Driven Design by Vernon Vaughn was published
 - 2017
   - Robert Martin's Clean Architecture book was published
