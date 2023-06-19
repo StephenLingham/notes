@@ -6,7 +6,7 @@
 - 2001
   - The Agile Manifesto was published
 - 2003
-  - Domain Driven Design by Eric Evans was published
+  - Domain-Driven Design by Eric Evans was published
 - 2005
   - Hexagonal Architecture aka Ports and Adapters architecture was introduced by Alistair Cockburn
 - 2008
