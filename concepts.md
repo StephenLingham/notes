@@ -72,7 +72,16 @@
 ## [CQRS](https://www.c-sharpcorner.com/article/implementing-cqrs-with-mediatr-in-asp-net-core-application/)
 ![](/images/CQRS.png)
 
-## [Clean Architecture - Bob Martin](https://nishanc.medium.com/clean-architecture-net-core-part-1-introduction-e70e1c49ef6)
+## [Ports and Adapters](https://herbertograca.com/2017/09/14/ports-adapters-architecture/#what-is-a-port)
+![](/images/ports-and-adapters.png)
+
+## [Ports and Adapters](https://8thlight.com/insights/a-color-coded-guide-to-ports-and-adapters)
+- ### **Layered Architecture**
+  ![](/images/layered-architecture.svg)
+- ### **Ports and Adapters**
+  ![](/images/ports-and-adapters.svg)
+
+## [Clean Architecture](https://nishanc.medium.com/clean-architecture-net-core-part-1-introduction-e70e1c49ef6)
 ![](/images/clean-architecture.jpg)
 
 ## [Event Driven Architecture](https://www.linkedin.com/pulse/event-driven-architecture-using-kafka-kunal-mohanta/)
