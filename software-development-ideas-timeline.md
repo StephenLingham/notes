@@ -1,6 +1,6 @@
 # Software Development Ideas Timeline
 - 1988
-  - **Command Query Separation (CQS)** was introduced by **Bertrand Meyer** in his book **Object-oriented Software Construction**
+  - **Command Query Separation (CQS)** was introduced by **Bertrand Meyer** in his book **Object-Oriented Software Construction**
 - 1994
   - **Design Patterns: Elements of Reusable Object-Oriented Software** by the authors known as the **Gang of Four** was published
 - 1999
