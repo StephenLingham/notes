@@ -1,0 +1,36 @@
+# Software Development Ideas Timeline
+- 1994
+  - **Design Patterns: Elements of Reusable Object-Oriented Software** by the authors known as the **Gang of Four** was published
+- 1999
+  - **The Pragmatic Programmer: From Journeyman to Master** by **Andrew Hunt** and **David Thomas** was published
+- 2002
+  - **Patterns of Enterprise Application Architecture** by **Martin Fowler** was published
+- 2001
+  - **The Agile Manifesto** was published
+- 2003
+  - **Domain-Driven Design** by **Eric Evans** was published
+- 2005
+  - **Hexagonal Architecture** aka **Ports and Adapters Architecture** was introduced by **Alistair Cockburn**
+- 2006
+  - **Domain-Driven Design Quickly** was published
+- 2008
+  - **Onion Architecture** was introduced by **Jeffrey Palermo** in a [blog post](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
+  - **Clean Code** by **Robert Martin** was published
+- 2010 
+  - The **Scrum Guide** by **Ken Schwaber** and **Jeff Sutherland** was published
+- 2012
+  - **Clean Architecture** was introduced by **Robert Martin** in a [blog post](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- 2013
+  - **The Phoenix Project** book was published
+  - **Implementing Domain-Driven Design** by **Vaughn Vernon** was published
+- 2015
+  - **Building Microservices** by **Sam Newman** was published
+- 2017
+  - **Clean Architecture** by **Robert Martin** book was published
+- 2018
+  - **Accelerate: The Science of Lean Software and DevOps** was published
+  - **Microservices Patterns** by **Chris Richardson** was published
+- 2020
+  - **Fundamentals of Software Architecture: An Engineering Approach** by **Mark Richards** and **Neal Ford** was published
+- 2021 
+  - **Software Architecture: The Hard Parts** by **Mark Richards** and **Neal Ford** was published
