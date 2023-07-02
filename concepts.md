@@ -72,6 +72,9 @@
 ## [CQRS](https://www.c-sharpcorner.com/article/implementing-cqrs-with-mediatr-in-asp-net-core-application/)
 ![](/images/CQRS.png)
 
+## [Hexagonal Architecture](https://reflectoring.io/spring-hexagonal/)
+![](/images/hexagonal-architecture.webp)
+
 ## [Ports and Adapters](https://herbertograca.com/2017/09/14/ports-adapters-architecture/#what-is-a-port)
 ![](/images/ports-and-adapters.png)
 
@@ -80,6 +83,9 @@
   ![](/images/layered-architecture.svg)
 - ### **Ports and Adapters**
   ![](/images/ports-and-adapters.svg)
+
+## [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
+![](/images/onion-architecture.png)
 
 ## [Clean Architecture](https://nishanc.medium.com/clean-architecture-net-core-part-1-introduction-e70e1c49ef6)
 ![](/images/clean-architecture.jpg)
