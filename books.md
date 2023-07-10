@@ -10,7 +10,7 @@
   - Radical Candor - Kim Scott
   - Leaders Eat Last - Simon Sinek
   - The Infinite Game - Simon Sinek
-  - How to Win Friends & Influence People – Dale Carnegie
+  - How to Win Friends & Influence People - Dale Carnegie
   - Drive: The Surprising Truth about What Motivates Us - Daniel Pink
   - The Five Dysfunctions of a Team - Patrick Lencioni
 ### Software Design
