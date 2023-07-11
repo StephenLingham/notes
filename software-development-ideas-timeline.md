@@ -5,6 +5,8 @@
   - **Design Patterns: Elements of Reusable Object-Oriented Software** by the authors known as the **Gang of Four** was published
 - 1999
   - **The Pragmatic Programmer: From Journeyman to Master** by **Andrew Hunt** and **David Thomas** was published
+- 2000
+  - **Representational State Transfer (REST)** was introduced by **Roy Fielding** in his PhD dissertation
 - 2002
   - **Patterns of Enterprise Application Architecture** by **Martin Fowler** was published
 - 2001
