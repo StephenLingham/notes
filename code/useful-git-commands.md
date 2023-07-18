@@ -15,3 +15,7 @@
 - `git reset --soft HEAD~1` - Go back in time by one commit. `--soft` means that the changes from the most recent commit will be staged.
 - `git stash push --staged -m "some message"` - Creates a stash just with files that are staged
 - `git config --global push.default current` - Makes it so that branches created locally will automatically create a remote branch when pushed if a remote branch doesn't already exist
+- `git config --list` - List the key-value pairs in the config
+- `git config --global user.name "<insert name here>"` - Sets the user's name in the global config
+- `git config --global user.email "<insert email here>"` - Sets the user's email in the global config
+  
