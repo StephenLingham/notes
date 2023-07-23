@@ -23,9 +23,11 @@
   - Steal Like An Arist - Austin Kleon
   - Show Your Work - Austin Kleon
 
-## Next To Read
+## Currently Reading
 - Clean Architecture - Robert C. Martin
 - Domain-Driven Design Quickly - Floyd Marinescu & Abel Avram
+
+## Next To Read
 - Domain-Driven Design - Jim Lewis
 - The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Fundamentals of Software Architecture - Mark Richards & Neal Ford
