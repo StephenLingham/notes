@@ -38,3 +38,4 @@
 - Head First Design Patterns - Eric Freeman & Elisabeth Robson
 - So Good They Can't Ignore You - Cal Newport
 - Deep Work: Rules for Focused Success in a Distracted World - Cal Newport
+- Never Split the Difference: Negotiating as if Your Life Depended on It - Chris Voss
