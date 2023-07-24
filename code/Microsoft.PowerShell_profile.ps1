@@ -75,3 +75,7 @@ Function GitBranchesAll {
 }
 
 set-alias gba GitBranchesAll
+
+Function DeletedAllMergedGitBranches {
+    git for-each-ref --format '%(refname:short)' refs/heads --merged=develop | Select-String -Pattern '^(?!.*(master|main|dev|release)).*$' | ForEach-Object { git branch -d $_ }
+}
