@@ -19,6 +19,9 @@
     - [Yoan Thirion's summary](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/fundamentals-of-software-architecture)
     - [Zhang Jun's summary](https://github.com/zhangjunhd/reading-notes/blob/master/software/FundamentalsOfSoftwareArchitecture.md)
     - [Dan Lebrero's summary](https://danlebrero.com/2021/11/17/fundamentals-of-software-architecture-summary/)
+  - Summaries of Clean Architecture
+    - [Summary by Sergio Rodríguez](https://github.com/serodriguez68/clean-architecture)
+    - [Summary by Alex Manrique](https://alexmanrique.com/blog/books/2020/11/15/clean-architecture-book-summary.html)
 - Games for fun team building sessions
   - https://skribbl.io/
   - https://scattergoriesonline.net/

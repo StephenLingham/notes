@@ -27,7 +27,7 @@
 ## [Psychological Safety](https://scienceforwork.com/blog/psychological-safety/)
 ![](/images/psychological-safety-and-trust.png)
 
-## Radical Candor - Kim Scott 
+## [Radical Candor - Kim Scott](https://www.youtube.com/watch?v=OmoGLPJOLY8)
 ![](/images/radical-candor.jpg)
 
 ## Job Satisfaction

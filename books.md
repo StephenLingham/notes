@@ -23,9 +23,11 @@
   - Steal Like An Arist - Austin Kleon
   - Show Your Work - Austin Kleon
 
-## Next To Read
+## Currently Reading
 - Clean Architecture - Robert C. Martin
 - Domain-Driven Design Quickly - Floyd Marinescu & Abel Avram
+
+## Next To Read
 - Domain-Driven Design - Jim Lewis
 - The Pragmatic Programmer - David Thomas & Andrew Hunt
 - Fundamentals of Software Architecture - Mark Richards & Neal Ford
@@ -36,3 +38,4 @@
 - Head First Design Patterns - Eric Freeman & Elisabeth Robson
 - So Good They Can't Ignore You - Cal Newport
 - Deep Work: Rules for Focused Success in a Distracted World - Cal Newport
+- Never Split the Difference: Negotiating as if Your Life Depended on It - Chris Voss
