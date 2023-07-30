@@ -99,6 +99,9 @@
 ## [Event Driven Architecture](https://www.linkedin.com/pulse/event-driven-architecture-using-kafka-kunal-mohanta/)
 ![](/images/event-driven-architecture.png)
 
+## SOLID Principles
+![](/images/solid-principles.jpeg)
+
 ## [The Software Design & Architecture Stack](https://khalilstemmler.com/articles/software-design-architecture/full-stack-software-design/)
 ![](/images/software-design-stack.jpg)
 
