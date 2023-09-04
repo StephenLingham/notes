@@ -33,6 +33,7 @@
 - 2017
   - **Clean Architecture** by **Robert Martin** book was published
 - 2018
+  - **Vertical Slice Architecture** was proposed by **Jimmy Bogard** in a [blog post](https://www.jimmybogard.com/vertical-slice-architecture/)
   - **Accelerate: The Science of Lean Software and DevOps** was published
   - **Microservices Patterns** by **Chris Richardson** was published
 - 2020
