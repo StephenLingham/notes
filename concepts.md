@@ -30,6 +30,9 @@
 ## [Radical Candor - Kim Scott](https://www.youtube.com/watch?v=OmoGLPJOLY8)
 ![](/images/radical-candor.jpg)
 
+## [Dennett's Rules AKA Rapoport's Rules](https://en.wikipedia.org/wiki/Rogerian_argument#Dennett's_version)
+![](/images/dennets-rules.webp)
+
 ## Job Satisfaction
 ![](/images/job-satisfaction.jpg)
 
