@@ -3,3 +3,4 @@
 - [Resources](resources.md)
 - [Books](books.md)
 - [Software Development Ideas Timeline](software-development-ideas-timeline.md)
+- [Notes and Articles](articles/articles.md)
