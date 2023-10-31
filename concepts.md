@@ -99,6 +99,9 @@
 ## [Clean Architecture](https://nishanc.medium.com/clean-architecture-net-core-part-1-introduction-e70e1c49ef6)
 ![](/images/clean-architecture.jpg)
 
+## [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+![](/images/screaming-architecture.png)
+
 ## [Vertical Slice Architecture](https://www.jimmybogard.com/vertical-slice-architecture/)
 ![](/images/vertical-slice-architecture.png)
 

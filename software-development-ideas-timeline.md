@@ -23,6 +23,8 @@
 - 2010 
   - The **Scrum Guide** by **Ken Schwaber** and **Jeff Sutherland** was published
   - **CQRS** was introduced by **Greg Young** in a [blog post](https://web.archive.org/web/20211124134459/http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/)
+- 2011
+  - **Screaming Architecture** was introduced by **Robert Martin** in a [blog post](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
 - 2012
   - **Clean Architecture** was introduced by **Robert Martin** in a [blog post](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - 2013
