@@ -15,6 +15,7 @@
   - The Five Dysfunctions of a Team - Patrick Lencioni
 ### Software Design
   - Clean Code - Robert C. Martin
+  - Clean Architecture - Robert C. Martin
 ### Agile, DevOps & Ways of Working
   - The Phoenix Project - Gene Kim and Kevin Behr
   - Accelerate: Building and Scaling High Performing Technology Organizations - Nicole Forsgren, Jez Humble, Gene Kim
@@ -24,7 +25,6 @@
   - Show Your Work - Austin Kleon
 
 ## Currently Reading
-- Clean Architecture - Robert C. Martin
 - Domain-Driven Design Quickly - Floyd Marinescu & Abel Avram
 
 ## Next To Read
