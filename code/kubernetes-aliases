@@ -1,1 +1,3 @@
 alias k=kubectl
+ksn() { kubectl config set-context --current --namespace=$1; }
+kgc() { kubectl get pod $1 -o jsonpath='{.spec.containers[*].name}'; }
