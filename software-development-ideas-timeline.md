@@ -32,6 +32,7 @@
   - **Implementing Domain-Driven Design** by **Vaughn Vernon** was published
 - 2015
   - **Building Microservices** by **Sam Newman** was published
+  - **Vertical Slice Architecture** was proposed by **Jimmy Bogard** in a [conference talk](https://vimeo.com/131633177)
 - 2017
   - **Clean Architecture** by **Robert Martin** book was published
 - 2018
