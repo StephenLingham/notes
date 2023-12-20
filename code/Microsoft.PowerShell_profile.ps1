@@ -79,3 +79,27 @@ set-alias gba GitBranchesAll
 Function DeletedAllMergedGitBranches {
     git for-each-ref --format '%(refname:short)' refs/heads --merged=develop | Select-String -Pattern '^(?!.*(master|main|dev|release)).*$' | ForEach-Object { git branch -d $_ }
 }
+
+# Kubernetes aliases
+
+set-alias k kubectl
+
+Function ksetnamespace($namespace) {
+    kubectl config set-context --current --namespace=$namespace
+}
+
+set-alias ksn ksetnamespace
+
+Function kgetcontainers($pod) {
+    kubectl get pod $pod -o jsonpath='{.spec.containers[*].name}'
+}
+
+set-alias kgc kgetcontainers
+
+Function kexec($pod, $container) {
+    if ($container) {
+        kubectl exec --stdin --tty $pod -c $container -- /bin/sh    
+    } else {
+        kubectl exec --stdin --tty $pod -- /bin/sh
+    }
+}
