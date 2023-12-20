@@ -52,6 +52,8 @@ Function DeleteAllBinAndObjFoldersRecursively {
     Get-ChildItem .\ -include bin,obj -Recurse | foreach ($_) { remove-item $_.fullname -Force -Recurse }
 }
 
+# Git aliases
+
 Function GitStatus {
     git status
 }
