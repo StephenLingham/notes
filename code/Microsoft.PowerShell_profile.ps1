@@ -86,6 +86,16 @@ Function DeletedAllMergedGitBranches {
 
 set-alias k kubectl
 
+Function kgetnamespaces($filter) {
+    if (-not $filter) {
+        kubectl get namespaces
+    } else {
+        kubectl get namespaces | select-string $filter
+    }
+}
+
+set-alias kgn kgetnamespaces
+
 Function ksetnamespace($namespace) {
     kubectl config set-context --current --namespace=$namespace
 }
