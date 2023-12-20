@@ -102,6 +102,18 @@ Function ksetnamespace($namespace) {
 
 set-alias ksn ksetnamespace
 
+Function kgetcontexts {
+    kubectl config get-contexts
+}
+
+set-alias kc kgetcontexts
+
+Function kusecontext($context) {
+    kubectl config use-context $context
+}
+
+set-alias kuc kusecontext
+
 Function kgetcontainers($pod) {
     kubectl get pod $pod -o jsonpath='{.spec.containers[*].name}'
 }
