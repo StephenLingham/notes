@@ -21,7 +21,7 @@
   - Fundamentals of Software Architecture - Mark Richards & Neal Ford
   - Software Architecture: The Hard Parts - Mark Richards, Neal Ford, Pramod Sadalage & Zhamak Dehghani
   - Building Microservices - Sam Newman
-### Agile, DevOps, project management & Ways of Working
+### Agile, DevOps, Project Management & Ways of Working
   - The Phoenix Project - Gene Kim and Kevin Behr
   - Accelerate: Building and Scaling High Performing Technology Organizations - Nicole Forsgren, Jez Humble, Gene Kim
   - The Mythical Man-Month - Fred Brooks
@@ -32,6 +32,9 @@
 
 ## Next To Read
 - Microservices Patterns - Chris Richardson
+- Designing Data-Intensive Applications - Martin Kleppmann
+- Modern Software Engineering - David Farley
+- Enterprise Integration Patterns - Gregor Hohpe & Bobby Woolf
 - Domain-Driven Design - Eric Evans
 - Implementing Domain-Driven Design - Vaughn Vernon
 - Head First Design Patterns - Eric Freeman & Elisabeth Robson
