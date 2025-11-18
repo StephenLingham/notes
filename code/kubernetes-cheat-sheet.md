@@ -47,7 +47,7 @@ For a non-default container
 
 ## How can I change an environment variable on a running pod?
 Method 1: Execute an interactive shell on the pod then set the environment variable from inside the pod  
-`kubectl exec -it <pod-name> -- sh`
+`kubectl exec -it <pod-name> -- sh`  
 `export <key>=<value>`
 
 Method 2: Set it on the pod's deployment  
@@ -57,7 +57,7 @@ Method 3: Edit the deployment's YAML and set it that way
 `kubectl edit deploy/<deploy-name>`
 
 Method 4: Edit the ConfigMap then restart the deployment  
-`kubectl edit configmap <config-map-name>`
+`kubectl edit configmap <config-map-name>`  
 `kubectl rollout restart deploy/<deployment-name>`
 
 ## How can I check which cluster and namespace I'm currently using?
