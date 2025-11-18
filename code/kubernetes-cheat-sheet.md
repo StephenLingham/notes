@@ -46,17 +46,17 @@ For a non-default container
 `kubectl exec <pod-name> -c <container-name> -- env`
 
 ## How can I change an environment variable on a running pod?
-Method 1: Execute an interactive shell on the pod then set the environment variable from inside the pod  
+**Method 1**: Execute an interactive shell on the pod then set the environment variable from inside the pod  
 `kubectl exec -it <pod-name> -- sh`  
 `export <key>=<value>`
 
-Method 2: Set it on the pod's deployment  
+**Method 2**: Set it on the pod's deployment  
 `kubectl set env deploy/<deployment-name> <key>=<value>`
 
-Method 3: Edit the deployment's YAML and set it that way  
+**Method 3**: Edit the deployment's YAML and set it that way  
 `kubectl edit deploy/<deploy-name>`
 
-Method 4: Edit the ConfigMap then restart the deployment  
+**Method 4**: Edit the ConfigMap then restart the deployment  
 `kubectl edit configmap <config-map-name>`  
 `kubectl rollout restart deploy/<deployment-name>`
 
@@ -64,7 +64,7 @@ Method 4: Edit the ConfigMap then restart the deployment
 `kubectl config get-contexts`
 
 ## How can I check which secrets have been injected into a non-prod pod?
-Method 1: Exec on to the pod's default container which will contain your running application  
+**Method 1**: Exec on to the pod's default container which will contain your running application  
 `kubectl exec -it <pod-name> -- sh`
 
 Then navigate to the /run/secrets directory  
@@ -76,6 +76,6 @@ List the secrets
 View one of the secrets  
 `cat <secret-name>`
 
-Method 2: Print the contents of all secrets in /run/secrets using one command
+**Method 2**: Print the contents of all secrets in /run/secrets using one command
 
 `kubectl exec -it <pod-name> -- /bin/sh -c "cd /run/secrets; ls -p | grep -v / | xa`
