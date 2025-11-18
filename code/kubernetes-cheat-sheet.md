@@ -32,31 +32,31 @@ To get the logs for the pod's default container and have them stream in real-tim
 `kubectl top pods`
 
 ## How can I exec on to the pod's default container and run bash commands from within an interactive shell?
-Exec on to the default container for a pod
+Exec on to the default container for a pod  
 `kubectl exec -it <pod-name> -- sh`
 
-Exec on to a different container
+Exec on to a different container  
 `kubectl exec -it <pod-name> -c <container-name> -- sh`
 
 ## How can I view the environment variables for a container?
-For a pod's default container
+For a pod's default container  
 `kubectl exec <pod-name> -- env`
 
-For a non-default container
+For a non-default container  
 `kubectl exec <pod-name> -c <container-name> -- env`
 
 ## How can I change an environment variable on a running pod?
-Method 1: Execute an interactive shell on the pod then set the environment variable from inside the pod
+Method 1: Execute an interactive shell on the pod then set the environment variable from inside the pod  
 `kubectl exec -it <pod-name> -- sh`
 `export <key>=<value>`
 
-Method 2: Set it on the pod's deployment
+Method 2: Set it on the pod's deployment  
 `kubectl set env deploy/<deployment-name> <key>=<value>`
 
-Method 3: Edit the deployment's YAML and set it that way
+Method 3: Edit the deployment's YAML and set it that way  
 `kubectl edit deploy/<deploy-name>`
 
-Method 4: Edit the ConfigMap then restart the deployment
+Method 4: Edit the ConfigMap then restart the deployment  
 `kubectl edit configmap <config-map-name>`
 `kubectl rollout restart deploy/<deployment-name>`
 
@@ -64,16 +64,16 @@ Method 4: Edit the ConfigMap then restart the deployment
 `kubectl config get-contexts`
 
 ## How can I check which secrets have been injected into a non-prod pod?
-Method 1: Exec on to the pod's default container which will contain your running application
+Method 1: Exec on to the pod's default container which will contain your running application  
 `kubectl exec -it <pod-name> -- sh`
 
-Then navigate to the /run/secrets directory
+Then navigate to the /run/secrets directory  
 `cd /run/secrets`
 
-List the secrets
+List the secrets  
 `ls`
 
-View one of the secrets
+View one of the secrets  
 `cat <secret-name>`
 
 Method 2: Print the contents of all secrets in /run/secrets using one command
