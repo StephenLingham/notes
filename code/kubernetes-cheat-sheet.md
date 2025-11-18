@@ -7,13 +7,13 @@
 `kubectl config use-context <cluster-name>`
 
 ## How can I check the logs for a container?
-To get the logs for the pod's default container
+To get the logs for the pod's default container  
 `kubectl logs <pod-name>`
 
-To get the logs for another container in the pod
+To get the logs for another container in the pod  
 `kubectl logs <pod-name> -c <container-name>`
 
-To get the logs for the pod's default container and have them stream in real-time
+To get the logs for the pod's default container and have them stream in real-time  
 `kubectl logs -f <pod-id>`
 
 ## How can I get a list of the containers which are currently running in a pod?
