@@ -11,7 +11,8 @@ Micro doesn't mean small, "micro" is a label, not a description
 
 Start from a monolith and only refactor to microservices if there's a good reason
 - "As I hear stories about teams using a microservices architecture, I've noticed a common pattern. Almost all the successful microservice stories have started with a monolith that got too big and was broken up. Almost all the cases where I've heard of a system that was built as a microservice system from scratch, it has ended up in serious trouble." - **Martin Fowler** [1](https://martinfowler.com/bliki/MonolithFirst.html)
+- "I'll keep saying this, if people can't build monoliths properly, microservices won't help" - **Simon Brown** [1](https://files.gotocon.com/uploads/slides/conference_12/515/original/gotoberlin2018-modular-monoliths.pdf)
 
-Avoid having too many horitonztal layers
+Avoid having too many horizontal layers
 - "I called this onion architecture, as it had lots of layers and made me cry when we had to cut
 through it." - **Sam Newman, Building Microservices** [1](https://book.northwind.ir/bookfiles/building-microservices/Building.Microservices.pdf)
