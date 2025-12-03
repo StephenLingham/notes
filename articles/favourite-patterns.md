@@ -6,6 +6,7 @@ Below are some of my favourite patterns and principles to use when creating a .N
 - REPR pattern
 - Avoid Hasty Abstractions (AHA) principle
 - Locality of Behaviour (LoB) principle
+- Common Closure Principle (CCP)
 
 # Anti-patterns to avoid
 - Sinkhole anti-pattern
