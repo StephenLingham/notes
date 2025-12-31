@@ -105,6 +105,9 @@
 ## [Vertical Slice Architecture](https://www.jimmybogard.com/vertical-slice-architecture/)
 ![](/images/vertical-slice-architecture.png)
 
+## [REPR Pattern](https://www.marcbroers.com/comparing-api-architectures-mvc-vs-repr-request/)
+![](/images/repr-pattern.png)
+
 ## [Event Driven Architecture](https://www.linkedin.com/pulse/event-driven-architecture-using-kafka-kunal-mohanta/)
 ![](/images/event-driven-architecture.png)
 
