@@ -28,6 +28,9 @@
 ### You Aren't Gonna Need It (YAGNI)
 - Don't implement functionality until it's needed
 
+### Avoid Hasty Abstraction (AHA)
+- Prefer duplication over wrong abstraction; wait for patterns to emerge
+
 ### Separation of Concerns (SoC)
 - Separate programs into distinct sections, each addressing one concern
 
@@ -49,6 +52,9 @@
 
 ### Encapsulate What Varies
 - Isolate volatile code from stable code
+
+### Locality of Behaviour (LoB)
+- Behavior should be obvious from looking at code locally, avoid spreading logic across distant locations
 
 ## Software Development Laws
 
@@ -290,6 +296,44 @@
 
 ### Circuit Breaker Pattern
 - Prevent cascading failures; fail fast when dependencies unavailable
+
+## Anti-Patterns
+
+### God Object / God Class
+- Object that knows or does too much; violates SRP
+
+### Sinkhole Anti-Pattern
+- Layer that passes data through without adding value
+
+### Shotgun Surgery
+- Single change requires modifications across many classes
+
+### Spaghetti Code
+- Tangled, unstructured control flow; difficult to follow
+
+### Golden Hammer
+- Using one familiar solution for all problems
+
+### Cargo Cult Programming
+- Using patterns without understanding why
+
+### Magic Numbers / Magic Strings
+- Unexplained literals in code; use named constants instead
+
+### Premature Generalization
+- Building flexibility before it's needed; increases unnecessary complexity
+
+### Lava Flow
+- Dead code that remains because removal is risky
+
+### Big Ball of Mud
+- System with no recognizable structure; grows without design
+
+### Analysis Paralysis
+- Over-analyzing without making decisions; balance analysis with action
+
+### Not Invented Here (NIH) Syndrome
+- Rebuilding solutions that already exist; wastes time and resources
 
 ## Refactoring Principles
 
