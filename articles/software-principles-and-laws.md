@@ -280,23 +280,6 @@
 ### Knowledge Sharing
 - Document decisions, share learnings, mentor; prevent knowledge silos
 
-## Modern Development Principles
-
-### Microservices Principles
-- Small services focused on business capabilities; independently deployable
-
-### Twelve-Factor App
-- SaaS methodology: codebase, dependencies, config, backing services, build/release/run, processes, port binding, concurrency, disposability, dev/prod parity, logs, admin
-
-### Cloud-Native Principles
-- Design for failure; horizontal scaling; ephemeral infrastructure
-
-### API Gateway Pattern
-- Single entry point handling routing, composition, protocol translation
-
-### Circuit Breaker Pattern
-- Prevent cascading failures; fail fast when dependencies unavailable
-
 ## Anti-Patterns
 
 ### God Object / God Class
