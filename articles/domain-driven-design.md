@@ -41,13 +41,10 @@
 - Examples: TransferFundsService, PricingService
 
 ### Specifications Pattern
-- Encapsulates business rules as reusable, composable predicates
-- Combinable using boolean logic (AND, OR, NOT)
-- Used for validation, querying, and filtering
-- In .NET, often implemented with `ISpecification<T>` interface and expression trees
-- Ardalis.Specification (by Steve Smith) provides a popular .NET implementation
+- Encapsulates business rules as composable predicates using boolean logic
+- Used for validation, querying, and filtering within the domain layer
+- In .NET Ardalis.Specification by Steve Smith implements `ISpecification<T>` with expression trees
 - Example: `new CustomersByCountrySpec("USA").And(new ActiveCustomersSpec())`
-- Keeps query logic in the domain layer, not in repositories or UI
 
 ### Factories
 - Encapsulate complex object creation logic
