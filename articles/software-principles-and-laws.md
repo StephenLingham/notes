@@ -3,200 +3,153 @@
 ## SOLID Principles
 
 ### Single Responsibility Principle (SRP)
-- A class should have one, and only one, reason to change
-- Each module should be responsible to one actor
+- A class should have one reason to change, responsible to one actor
 
 ### Open/Closed Principle (OCP)
-- Software entities should be open for extension, closed for modification
-- Extend behavior without changing existing code
+- Open for extension, closed for modification
 
 ### Liskov Substitution Principle (LSP)
-- Objects of a superclass should be replaceable with objects of subclasses without breaking the application
 - Derived types must be completely substitutable for their base types
 
 ### Interface Segregation Principle (ISP)
-- Clients should not be forced to depend on interfaces they don't use
-- Many specific interfaces are better than one general-purpose interface
+- Many specific interfaces over one general-purpose interface
 
 ### Dependency Inversion Principle (DIP)
-- High-level modules should not depend on low-level modules; both should depend on abstractions
-- Abstractions should not depend on details; details should depend on abstractions
+- Depend on abstractions, not concretions
 
 ## Core Design Principles
 
 ### Don't Repeat Yourself (DRY)
-- Every piece of knowledge must have a single, unambiguous representation in the system
-- Avoid duplication of logic and data
+- Every piece of knowledge has a single, unambiguous representation
 
 ### Keep It Simple, Stupid (KISS)
-- Systems work best when kept simple rather than made complicated
-- Avoid unnecessary complexity
+- Keep systems simple; avoid unnecessary complexity
 
 ### You Aren't Gonna Need It (YAGNI)
-- Don't implement functionality until it's actually needed
-- Avoid speculative generality
+- Don't implement functionality until it's needed
 
 ### Separation of Concerns (SoC)
-- Separate a program into distinct sections addressing separate concerns
-- Each concern should be a separate module
+- Separate programs into distinct sections, each addressing one concern
 
 ### Principle of Least Astonishment (POLA)
-- Components should behave in a way that users expect
-- Minimize surprise in APIs and interfaces
+- Components should behave as users expect
 
 ### Law of Demeter (LoD) / Principle of Least Knowledge
-- Only talk to your immediate friends
-- A method should only call methods of: itself, its parameters, objects it creates, its direct components
-- Don't chain method calls: `obj.getX().getY().getZ()`
+- Only talk to immediate friends (self, parameters, created objects, direct components)
+- Avoid chaining: `obj.getX().getY().getZ()`
 
 ### Composition Over Inheritance
-- Favor object composition over class inheritance
-- "Has-a" relationships are often more flexible than "is-a" relationships
+- Favor "has-a" over "is-a" relationships
 
 ### Tell, Don't Ask
-- Tell objects what to do, don't ask them about their state and make decisions for them
-- Push behavior down into objects rather than pulling data out
+- Tell objects what to do; don't query state and decide for them
 
 ### Hollywood Principle
-- "Don't call us, we'll call you"
-- High-level components control low-level components via abstractions
-- Foundation of IoC and dependency injection
+- "Don't call us, we'll call you" - foundation of IoC and dependency injection
 
 ### Encapsulate What Varies
-- Identify aspects that vary and separate them from what stays the same
 - Isolate volatile code from stable code
 
 ## Software Development Laws
 
 ### Conway's Law
-- Organizations design systems that mirror their communication structure
-- System architecture reflects organizational structure
+- System architecture mirrors organizational communication structure
 
 ### Brooks's Law
-- Adding people to a late software project makes it later
-- Communication overhead grows with team size
+- Adding people to a late project makes it later
 
 ### The Law of Leaky Abstractions (Spolsky)
-- All non-trivial abstractions are leaky to some degree
-- You eventually need to understand what's beneath the abstraction
+- All non-trivial abstractions leak; you'll eventually need to understand what's beneath
 
 ### Hofstadter's Law
-- It always takes longer than you expect, even when you take Hofstadter's Law into account
-- Projects take longer than estimated, even with padding
+- It always takes longer than expected, even accounting for this law
 
 ### Parkinson's Law
-- Work expands to fill the time available for its completion
-- Tasks take as long as the deadline allows
+- Work expands to fill available time
 
 ### Murphy's Law
 - Anything that can go wrong will go wrong
-- Plan for failure and edge cases
 
 ### Postel's Law (Robustness Principle)
 - Be conservative in what you send, liberal in what you accept
-- Accept diverse inputs, produce strict outputs
 
 ### Gall's Law
 - Complex systems that work evolved from simple systems that worked
-- Build complexity incrementally, not all at once
 
 ### Hyrum's Law (Law of Implicit Interfaces)
-- With sufficient users of an API, all observable behaviors become depended upon
-- Users will depend on undocumented behavior
+- With sufficient users, all observable API behaviors become depended upon
 
 ### Zawinski's Law
 - Every program attempts to expand until it can read mail
-- Software tends to become bloated with features
 
 ### Kernighan's Law
-- Debugging is twice as hard as writing code; if you write maximally clever code, you're not smart enough to debug it
-- Keep code simple for maintainability
+- Debugging is twice as hard as writing code; keep it simple to debug it
 
 ### Eagleson's Law
-- Any code of your own that you haven't looked at for six months might as well have been written by someone else
-- Write code for future maintainers
+- Code you haven't seen in six months was written by someone else
 
 ### Ninety-Ninety Rule
-- The first 90% of the code takes 10% of the time; the last 10% takes the other 90%
-- Finishing is harder than starting
+- First 90% takes 10% of time; last 10% takes the other 90%
 
 ## Architectural Principles
 
 ### High Cohesion, Low Coupling
-- Related functionality should be grouped together (high cohesion)
-- Dependencies between modules should be minimized (low coupling)
+- Group related functionality; minimize module dependencies
 
 ### Dependency Rule (Clean Architecture)
-- Source code dependencies must point inward toward higher-level policies
-- Inner layers know nothing about outer layers
+- Dependencies point inward; inner layers know nothing about outer layers
 
 ### Stable Dependencies Principle (SDP)
 - Depend in the direction of stability
-- Modules should depend on more stable modules
 
 ### Stable Abstractions Principle (SAP)
-- Abstractness should increase with stability
-- Stable modules should be abstract; unstable modules should be concrete
+- Stable modules are abstract; unstable modules are concrete
 
 ### Common Closure Principle (CCP)
-- Classes that change together should be packaged together
-- Group classes by reason for change
+- Package classes that change together
 
 ### Common Reuse Principle (CRP)
-- Classes that are used together should be packaged together
-- Don't force users to depend on things they don't need
+- Package classes that are used together
 
 ### Acyclic Dependencies Principle (ADP)
-- The dependency graph of packages must have no cycles
-- Avoid circular dependencies
+- No cycles in package dependency graph
 
 ### Single Level of Abstraction Principle (SLAP)
-- Each function should operate at a single level of abstraction
-- Don't mix high-level and low-level operations
+- Each function operates at one level of abstraction
 
 ## Code Quality Principles
 
 ### Boy Scout Rule
 - Leave code cleaner than you found it
-- Continuous incremental improvement
 
 ### Broken Windows Theory
-- Fix bad designs, wrong decisions, and poor code when you see them
-- Don't let technical debt accumulate
+- Fix bad code when you see it; don't let technical debt accumulate
 
 ### Two-Pizza Team Rule
-- Teams should be small enough to be fed by two pizzas (typically 6-8 people)
-- Optimal team size for communication and productivity
+- Teams fed by two pizzas (6-8 people) optimize communication
 
 ### Rubber Duck Debugging
-- Explain your code to an inanimate object to find bugs
-- Verbalization reveals flaws in logic
+- Explain code to an inanimate object to find bugs
 
 ### Zero Bug Tolerance
-- Fix bugs immediately rather than accumulating technical debt
-- Prevent bug backlog from growing
+- Fix bugs immediately; prevent backlog growth
 
 ### Fail Fast Principle
 - Detect and report errors as early as possible
-- Don't hide failures or continue with invalid state
 
 ### Defensive Programming
-- Anticipate failures and guard against them
 - Validate inputs, check preconditions, handle errors
 
 ## Testing Principles
 
 ### Test-Driven Development (TDD)
-- Write tests before writing production code
-- Red, Green, Refactor cycle
+- Red, Green, Refactor: write tests before code
 
 ### Arrange, Act, Assert (AAA)
 - Structure tests in three phases: setup, execution, verification
-- Makes tests readable and maintainable
 
 ### Test Pyramid
 - Many unit tests, fewer integration tests, few end-to-end tests
-- Fast, isolated tests form the foundation
 
 ### FIRST Principles (Unit Tests)
 - **Fast** - Tests should run quickly
@@ -206,14 +159,10 @@
 - **Timely** - Written at the right time (before or with production code)
 
 ### Given-When-Then (Behavior)
-- **Given** initial context
-- **When** event occurs
-- **Then** ensure outcomes
-- BDD test structure
+- BDD structure: **Given** context, **When** event, **Then** outcome
 
 ### Test One Thing
-- Each test should verify a single behavior or outcome
-- Makes failures easier to diagnose
+- Each test verifies a single behavior
 
 ## Agile and Process Principles
 
@@ -227,172 +176,131 @@
 - Communication, Simplicity, Feedback, Courage, Respect
 
 ### Continuous Integration/Continuous Deployment (CI/CD)
-- Integrate changes frequently
-- Automate testing and deployment
-- Deliver small, incremental changes
+- Integrate frequently, automate testing/deployment, deliver incrementally
 
 ### Shift Left
-- Move testing, security, and quality checks earlier in the development process
-- Find and fix issues sooner
+- Move testing, security, and quality checks earlier
 
 ### Infrastructure as Code (IaC)
-- Manage infrastructure through code and automation
-- Version control for infrastructure
+- Manage infrastructure through versioned code
 
 ### GitFlow Principle
-- Use branching strategies for organized development
-- Feature branches, release branches, hotfix branches
+- Branching strategies: feature, release, and hotfix branches
 
 ## Performance and Scalability
 
 ### Premature Optimization is the Root of All Evil
-- Don't optimize before measuring
 - Make it work, make it right, make it fast - in that order
 
 ### 80/20 Rule (Pareto Principle)
-- 80% of performance issues come from 20% of the code
-- Focus optimization efforts on bottlenecks
+- 80% of performance issues from 20% of code; focus on bottlenecks
 
 ### Amdahl's Law
-- The speedup of parallel processing is limited by the sequential portion
-- Maximum speedup = 1 / (sequential fraction)
+- Parallel speedup limited by sequential portion
 
 ### CAP Theorem
-- In distributed systems, you can only guarantee two of three: Consistency, Availability, Partition tolerance
-- Trade-offs in distributed system design
+- Choose two of three: Consistency, Availability, Partition tolerance
 
 ### Little's Law
-- Average number of items in a system = average arrival rate × average time in system
-- Queuing theory for capacity planning
+- Items in system = arrival rate × time in system
 
 ## Security Principles
 
 ### Principle of Least Privilege
-- Grant minimum permissions necessary to perform a task
-- Limit attack surface and blast radius
+- Grant minimum permissions necessary
 
 ### Defense in Depth
-- Use multiple layers of security controls
-- No single point of failure in security
+- Multiple layers of security controls
 
 ### Security by Design
-- Build security into the system from the start
-- Don't bolt it on later
+- Build security in from the start
 
 ### Zero Trust Security
 - Never trust, always verify
-- Verify every access request regardless of source
 
 ### Principle of Complete Mediation
-- Every access to every object must be checked for authority
-- No bypasses in security checks
+- Check every access; no bypasses
 
 ## Code Organization
 
 ### Package by Feature, Not by Layer
-- Organize code around business features rather than technical layers
-- Higher cohesion within feature modules
+- Organize around business features for higher cohesion
 
 ### Screaming Architecture
-- Architecture should scream its intent (e.g., "I'm an order processing system")
-- Domain concepts should be obvious from structure
+- Architecture screams its business intent; domain concepts obvious from structure
 
 ### Convention Over Configuration
-- Reduce decisions by using sensible defaults
-- Override only when necessary
+- Sensible defaults; override only when necessary
 
 ## Data and State Management
 
 ### Single Source of Truth
-- Each piece of data should have one authoritative source
-- Derived data should be computed, not duplicated
+- One authoritative source per data piece; compute derived data
 
 ### Command Query Separation (CQS)
-- Methods should either change state (command) or return data (query), not both
-- Queries shouldn't have side effects
+- Methods either change state or return data, not both
 
 ### Event Sourcing Principle
-- Store state changes as a sequence of events
-- Current state is derived by replaying events
+- Store state changes as events; derive current state by replay
 
 ### Database Normalization
-- Organize data to reduce redundancy
-- Balance between normal forms and query performance
+- Reduce redundancy; balance normal forms with query performance
 
 ## Communication and Documentation
 
 ### Principle of Self-Documenting Code
-- Code should be readable without extensive comments
-- Use meaningful names and clear structure
+- Readable without extensive comments; meaningful names and clear structure
 
 ### README-Driven Development
-- Write README before implementation
-- Clarifies intent and API design
+- Write README before implementation to clarify intent
 
 ### API-First Design
-- Design the API contract before implementation
-- Ensures usability and consistency
+- Design API contract before implementation
 
 ### Semantic Versioning (SemVer)
-- MAJOR.MINOR.PATCH versioning scheme
-- Communicate breaking changes, features, and fixes
+- MAJOR.MINOR.PATCH: breaking changes, features, fixes
 
 ## Team and Collaboration
 
 ### Code Review Best Practices
-- Review for correctness, design, readability, and learning
-- Constructive feedback, not criticism
+- Review for correctness, design, readability, learning; constructive feedback
 
 ### Pair Programming
-- Two developers work together at one workstation
-- Improves code quality and knowledge sharing
+- Two developers at one workstation; improves quality and knowledge sharing
 
 ### Collective Code Ownership
-- Any team member can modify any part of the codebase
-- Reduces bottlenecks and silos
+- Any team member can modify any code; reduces silos
 
 ### Knowledge Sharing
-- Document decisions, share learnings, mentor others
-- Prevent single points of knowledge failure
+- Document decisions, share learnings, mentor; prevent knowledge silos
 
 ## Modern Development Principles
 
 ### Microservices Principles
-- Services are small, focused on business capabilities
-- Independently deployable and scalable
-- Decentralized data management
+- Small services focused on business capabilities; independently deployable
 
 ### Twelve-Factor App
-- Methodology for building SaaS applications
-- Covers codebase, dependencies, config, backing services, build/release/run, processes, port binding, concurrency, disposability, dev/prod parity, logs, admin processes
+- SaaS methodology: codebase, dependencies, config, backing services, build/release/run, processes, port binding, concurrency, disposability, dev/prod parity, logs, admin
 
 ### Cloud-Native Principles
-- Design for failure and resilience
-- Horizontal scaling over vertical
-- Ephemeral infrastructure
+- Design for failure; horizontal scaling; ephemeral infrastructure
 
 ### API Gateway Pattern
-- Single entry point for client requests
-- Handles routing, composition, protocol translation
+- Single entry point handling routing, composition, protocol translation
 
 ### Circuit Breaker Pattern
-- Prevent cascading failures in distributed systems
-- Fail fast when dependencies are unavailable
+- Prevent cascading failures; fail fast when dependencies unavailable
 
 ## Refactoring Principles
 
 ### Red-Green-Refactor
-- Write failing test (red), make it pass (green), improve code (refactor)
-- TDD cycle
+- TDD cycle: failing test, make it pass, improve code
 
 ### Refactor Ruthlessly
-- Continuously improve code structure
 - Small, frequent refactorings over large rewrites
 
 ### Make the Change Easy, Then Make the Easy Change
-- Restructure code to make the desired change simple
-- Two-step refactoring approach
+- Two-step approach: restructure, then change
 
 ### Leave Code Better Than You Found It
-- Opportunistic refactoring during regular work
-- Boy Scout Rule applied continuously
+- Boy Scout Rule: opportunistic refactoring during regular work
