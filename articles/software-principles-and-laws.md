@@ -97,6 +97,10 @@
 ### Ninety-Ninety Rule
 - First 90% takes 10% of time; last 10% takes the other 90%
 
+### Weinberg's Law
+- "No matter what they tell you, it's always a people problem"
+- Most software problems stem from communication, culture, and collaboration
+
 ## Architectural Principles
 
 ### High Cohesion, Low Coupling
