@@ -1,6 +1,21 @@
-# Machine Learning
-- Gradient Boosting
-- XGBoost
-- LightGBM
-- CatBoost
+# Machine Learning Notes - Summary of concepts, tools, libraries, techniques
+- Tabular data
+  - Data in rows and columns such as database or spreadsheet data
+- Supervised learning
+  - When the outcome is known. For example regression and classification
+- Unsupervised learning
+  - Clustering using k-means or DBSCAN
+- Deep learning
+  - Best for non-tabular data such as text, video, image, audio
+  - CNN - better for visual data
+  - RNN
+  - Transformer - current gold standard for text data
+- Gradient boosting
+  - Best for supervised learning using tabular data
+  - XGBoost
+  - LightGBM
+  - CatBoost
 - Parquet files
+- Recursive feature elimination (RFE)
+- SHAP - SHapley Additive exPlanations. A method used to explain why a model made a particular prediction
+- Optuna and Hyperopt - hyperparameter optimization libraries used to tune models
