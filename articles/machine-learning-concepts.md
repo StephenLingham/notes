@@ -1,10 +1,13 @@
 # Machine Learning Notes - Summary of concepts, tools, libraries, techniques
-- Tabular data
-  - Data in rows and columns such as database or spreadsheet data
-- Supervised learning
-  - When the outcome is known. For example regression and classification
-- Unsupervised learning
-  - Clustering using k-means or DBSCAN
+- Tabular data - Data in rows and columns such as database or spreadsheet data
+- Training data set - Data set used to train and fit the model
+- Validation data set - Data used to evaluate the model and help choose hyperparameters during development
+- Testing data set - Data set used to test the model to see how well it predicts after it's been trained, a final dataset reserved to check real-world performance
+- Supervised learning - When the outcome is known. For example regression and classification
+- Unsupervised learning - Clustering using k-means or DBSCAN
+- Overfitting - When the model fits too closely to the training data so it has good performance against the training data but poor performance agaisnt the validation and test data
+- Underfitting - The model hasn't been fit to the training data enough so it doesn't perform well
+- Confusion matrix - A table which shows the percentage of true positives, false positives, true negatives and false negatives
 - Deep learning
   - Best for non-tabular data such as text, video, image, audio
   - CNN - better for visual data
@@ -16,6 +19,24 @@
   - LightGBM
   - CatBoost
 - Parquet files
-- Recursive feature elimination (RFE)
+- Generalisation - The ability of a model to perform well on unseen out-of-sample data. The goal of cross validation, feature selection and hyperparameter optimisation is to improve generalisation
+- Feature selection - The process of choosing which features to use
+  - Recursive feature elimination (RFE) - You specify how many features you want and it chooses the most useful ones
+  - Recursive feature elimination with cross validation (RFECV) - Performs RFE repeatedly and automatically determines the number of features by cross checking with the other combinations and selecting the one with the best score
 - SHAP - SHapley Additive exPlanations. A method used to explain why a model made a particular prediction
-- Optuna and Hyperopt - hyperparameter optimization libraries used to tune models
+- Parameters - Learned during training, for example in a decision tree how the decisions are split
+- Hyperparameters - Chosen before training, such as number of trees and maxiumum tree depth etc
+- Hyperparameter optimisation (HPO) - Used to optimise the hyperparameters for a model
+  - Grid search - Tests every combination
+  - Random search - Tests a random subset of hyperparameter combinations. Faster than grid search with results nearly as good
+  - Bayesian optimization - Uses results from previous trials to intelligently choose the next hyperparameters to test
+  - Hyperparameter optimisation libraries
+    - Optuna - Usually the default choice. Optimised, easy to use, integrates well with XGBoost etc
+    - Scikit-Learn GridSearchCV - Exhaustively tries all combinations. Simple but slow
+    - Scikit-Learn RandomizedSearchCV - Randomly samples combinations. Much faster than grid serach. Often nearly as effective
+    - Hyperopt - Similar to Optuna but less commonly used
+- Cross validation - Splitting the data into training and validation sets multiple times and averaging the results
+  - K-fold cross validation - The dataset is split into K number of folds, the model is trained on K-1 folds then the remaining fold is used to test the model to validate it, then the scores are averaged
+  - TimeSeriesSplit - A cross validation method for time-ordered data where training observations always happen before validation observations so that look-ahead bias is prevented
+  - Expanding window validation - A type of time series validation where the training set grows over time. For example train using data from 2018, then 2018-2019, then 2018-2020
+  - Rolling window validation - A type of time series validation where the training window has a fixed size and moves forward through time. For example training using data from 2018, then 2019, then 2020
