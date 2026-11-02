@@ -1,0 +1,34 @@
+# Glossary of AI terms and concepts
+
+- Abliteration - A technique that modifies an AI model's internal workings to reduce its tendency to refuse requests.
+- Agentic harness - The software around an AI agent that manages its tools, context, permissions, and task execution.
+- Agentic loop - A repeating cycle in which an AI agent assesses the situation, chooses an action, and checks the result.
+- Blast radius - The extent of harm that an error, failure, or security breach can cause.
+- Chunking - Splitting content into smaller pieces so an AI system can process or retrieve it more easily.
+- Context engineering - Selecting and organizing the instructions, information, and tools an AI model needs for a task.
+- Context window - The maximum amount of text or other data an AI model can work with at once, including its input and output.
+- Dark factory - A highly automated operation where AI and machines carry out routine work with little or no direct human involvement.
+- Data exfiltration - The unauthorized transfer of information out of a system.
+- Embedding - A numerical representation of content that helps computers compare its meaning or characteristics.
+- Foundation model - An AI model trained on broad data that can be adapted to many different tasks.
+- Frontier model - An AI model considered among the most capable available at a given time.
+- GAN (generative adversarial network) - An AI system where one neural network creates examples while another learns to distinguish them from real data.
+- Generative AI - AI that creates content such as text, images, audio, video, or code.
+- Grounding - Connecting an AI model's responses to relevant sources or real-world data to improve accuracy.
+- Guardrails - Rules and checks designed to keep an AI system's behavior within acceptable limits.
+- Hallucination - An AI-generated statement that sounds plausible but is incorrect or unsupported.
+- Heuristic - A practical rule of thumb that helps solve a problem without guaranteeing the best answer.
+- Human in the loop - An approach where a person reviews, guides, or approves parts of an AI-driven process.
+- Lethal trifecta - The risky combination of an AI agent's access to private data, exposure to untrusted content, and ability to send information outside the system.
+- LLM (large language model) - An AI model trained on large amounts of text to understand and generate language.
+- MCP (Model Context Protocol) - An open standard that lets AI applications connect to external tools and data sources.
+- Multimodal - Able to process or generate more than one type of data, such as text, images, or audio.
+- Prompt caching - Reusing previous processing of repeated prompt content to reduce response time and computing costs.
+- Prompt engineering - Writing and refining instructions to help an AI model produce the desired results.
+- RAG (retrieval-augmented generation) - A technique that retrieves relevant information and supplies it to an AI model to help it answer a question.
+- Skill - A reusable set of instructions and supporting resources that helps an AI agent perform a particular type of task.
+- Symbolic AI - An approach to AI that uses explicit rules, symbols, and logic to represent knowledge and solve problems.
+- System prompt - Instructions that define an AI assistant's role, behavior, and constraints.
+- Temperature - A setting that controls how randomly an AI model chooses its output, with higher values generally producing more varied results.
+- Token - A unit of data an AI model processes, such as a word, part of a word, or punctuation.
+- Vectors - Ordered lists of numbers used to represent data, such as the features or meaning of content.
