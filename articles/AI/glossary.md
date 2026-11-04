@@ -29,6 +29,8 @@
 - Skill - A reusable set of instructions and supporting resources that helps an AI agent perform a particular type of task.
 - Symbolic AI - An approach to AI that uses explicit rules, symbols, and logic to represent knowledge and solve problems.
 - System prompt - Instructions that define an AI assistant's role, behavior, and constraints.
-- Temperature - A setting that controls how randomly an AI model chooses its output, with higher values generally producing more varied results.
+- Temperature - A setting that controls how randomly an AI model chooses its output, with higher values producing more varied results and lower values producing more deterministic results.
 - Token - A unit of data an AI model processes, such as a word, part of a word, or punctuation.
+- Top-P - A setting that limits the next token choice to the smallest group of most likely tokens whose combined probability reaches a chosen threshold, such as 90%.
+- Top-K - A setting that limits the next token choice to the K most likely tokens.
 - Vectors - Ordered lists of numbers used to represent data, such as the features or meaning of content.
