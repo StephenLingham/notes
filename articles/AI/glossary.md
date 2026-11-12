@@ -10,6 +10,7 @@
 - Dark factory - A highly automated operation where AI and machines carry out routine work with little or no direct human involvement.
 - Data exfiltration - The unauthorized transfer of information out of a system.
 - Embedding - A numerical representation of content that helps computers compare its meaning or characteristics.
+- Fine-tuning - Further training a pretrained model on examples to adapt its behavior by updating model weights.
 - Foundation model - An AI model trained on broad data that can be adapted to many different tasks.
 - Frontier model - An AI model considered among the most capable available at a given time.
 - GAN (generative adversarial network) - An AI system where one neural network creates examples while another learns to distinguish them from real data.
@@ -25,6 +26,8 @@
 - Multimodal - Able to process or generate more than one type of data, such as text, images, or audio.
 - Prompt caching - Reusing previous processing of repeated prompt content to reduce response time and computing costs.
 - Prompt engineering - Writing and refining instructions to help an AI model produce the desired results.
+- Prompt optimisation - Automatically testing and improving prompts against goals such as accuracy or cost.
+- Prompt tuning - Refining embedded numerical soft prompts while keeping the model weights unchanged; unlike ordinary prompt editing, this uses vectors rather than written instructions.
 - RAG (retrieval-augmented generation) - A technique that retrieves relevant information and supplies it to an AI model to help it answer a question.
 - Skill - A reusable set of instructions and supporting resources that helps an AI agent perform a particular type of task.
 - Symbolic AI - An approach to AI that uses explicit rules, symbols, and logic to represent knowledge and solve problems.
