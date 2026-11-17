@@ -19,4 +19,4 @@
 - Context engineering - 5:24 - https://www.youtube.com/watch?v=wzpioEA4tOg
 - Context engineering - 16:42 - https://www.youtube.com/watch?v=p6s82Ax8yrs
 - LLM - 5:33 - https://www.youtube.com/watch?v=5sLYAQS9sWQ
--Neural networks - 18:40 - https://www.youtube.com/watch?v=aircAruvnKk
+- Neural networks - 18:40 - https://www.youtube.com/watch?v=aircAruvnKk

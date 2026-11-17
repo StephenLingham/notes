@@ -19,6 +19,7 @@
 - [Gary Marcus - Marcus on AI](https://garymarcus.substack.com/)
 - [Cursor Blog](https://cursor.com/blog)
 - [The Register - AI and Machine Learning](https://www.theregister.com/ai_ml/)
+- [Gizmodo - Artificial Intelligence](https://gizmodo.com/tech/artificial-intelligence)
 
 ## AI News Aggregators
 - [Techmeme](https://techmeme.com/)

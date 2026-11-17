@@ -1,4 +1,5 @@
 # Machine Learning Notes - Summary of concepts, tools, libraries, techniques
+
 - Tabular data - Data in rows and columns such as database or spreadsheet data
 - Training data set - Data set used to train and fit the model
 - Validation data set - Data used to evaluate the model and help choose hyperparameters during development
