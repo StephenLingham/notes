@@ -25,6 +25,11 @@
   - CNN - better for visual data
   - RNN
   - Transformer - current gold standard for text data
+- Representations and spaces
+  - Vector space - A mathematical space of vectors which can be represented in multiple dimensions as a list of numbers
+  - Embedding space - A vector space where items such as words or images are represented as points, with similar items usually close together
+  - Latent space - A space of hidden features learned by a model, such as shapes or styles, rather than raw input data. For example the word "bank" can be embedded as a vector but latent space usually has more context and understands whether it's a monetary bank or a river bank.
+  - Neuralese - An informal name for the internal patterns of numbers a neural network uses to process information, not a human-readable language
 - Gradient boosting
   - Best for supervised learning using tabular data
   - XGBoost
