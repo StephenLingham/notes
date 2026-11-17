@@ -19,3 +19,8 @@
 - [Gary Marcus - Marcus on AI](https://garymarcus.substack.com/)
 - [Cursor Blog](https://cursor.com/blog)
 - [The Register - AI and Machine Learning](https://www.theregister.com/ai_ml/)
+
+## Research Paper Aggregators
+- [alphaXiv](https://www.alphaxiv.org/)
+- [Hugging Face Papers](https://huggingface.co/papers)
+- [PaperPulse](https://paperpulse.ifsp.dev/)
