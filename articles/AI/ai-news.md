@@ -20,6 +20,10 @@
 - [Cursor Blog](https://cursor.com/blog)
 - [The Register - AI and Machine Learning](https://www.theregister.com/ai_ml/)
 
+## AI News Aggregators
+- [Techmeme](https://techmeme.com/)
+- [Hacker News](https://news.ycombinator.com/news)
+
 ## Research Paper Aggregators
 - [alphaXiv](https://www.alphaxiv.org/)
 - [Hugging Face Papers](https://huggingface.co/papers)
