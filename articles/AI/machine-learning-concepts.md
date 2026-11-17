@@ -2,12 +2,24 @@
 - Tabular data - Data in rows and columns such as database or spreadsheet data
 - Training data set - Data set used to train and fit the model
 - Validation data set - Data used to evaluate the model and help choose hyperparameters during development
-- Testing data set - Data set used to test the model to see how well it predicts after it's been trained, a final dataset reserved to check real-world performance
+- Testing data set - Data set used to test the model to see how well it predicts after it has been trained, a final dataset reserved to check real-world performance on unseen examples
 - Supervised learning - When the outcome is known. For example regression and classification
 - Unsupervised learning - Clustering using k-means or DBSCAN
 - Overfitting - When the model fits too closely to the training data so it has good performance against the training data but poor performance agaisnt the validation and test data
 - Underfitting - The model hasn't been fit to the training data enough so it doesn't perform well
-- Confusion matrix - A table which shows the percentage of true positives, false positives, true negatives and false negatives
+- Classification evaluation - Measuring how well a model assigns examples to categories
+  - Confusion matrix - A table comparing predicted and actual classes, showing true positives, false positives, true negatives, and false negatives for binary classification
+  - True positive (TP) - A positive case that a model correctly classifies as positive, such as spam correctly flagged by a filter
+  - False positive (FP) - A negative case that a model incorrectly classifies as positive, such as a legitimate email flagged as spam
+  - True negative (TN) - A negative case that a model correctly classifies as negative, such as a legitimate email allowed through a spam filter
+  - False negative (FN) - A positive case that a model incorrectly classifies as negative, such as spam allowed through a filter
+  - Accuracy - The proportion of all classification predictions that are correct; it can be misleading when some classes are much more common than others
+  - Precision - The proportion of cases predicted as positive that are actually positive; high precision means fewer false alarms among positive predictions
+  - Recall - The proportion of actual positive cases correctly detected; also called sensitivity or true positive rate
+  - Specificity - The proportion of actual negative cases correctly identified; also called true negative rate
+  - F1 score - The harmonic mean of precision and recall, giving a combined score that is high only when both are high
+  - False positive rate - The proportion of actual negative cases incorrectly classified as positive
+  - Decision threshold - The score above which a model predicts a positive case; lowering it generally increases recall but also increases false positives
 - Deep learning
   - Best for non-tabular data such as text, video, image, audio
   - CNN - better for visual data
