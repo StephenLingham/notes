@@ -1,6 +1,8 @@
 # Machine Learning Notes - Summary of concepts, tools, libraries, techniques
 
 - Tabular data - Data in rows and columns such as database or spreadsheet data
+- Feature - An input variable used by a model, such as the number of bedrooms when predicting a house price
+- Target - The value or class label a supervised model learns to predict, such as the actual sale price of a house
 - Training data set - Data set used to train and fit the model
 - Validation data set - Data used to evaluate the model and help choose hyperparameters during development
 - Testing data set - Data set used to test the model to see how well it predicts after it has been trained, a final dataset reserved to check real-world performance on unseen examples
