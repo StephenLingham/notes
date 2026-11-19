@@ -9,7 +9,9 @@
 - Context window - The maximum amount of text or other data an AI model can work with at once, including its input and output.
 - Dark factory - A highly automated operation where AI and machines carry out routine work with little or no direct human involvement.
 - Data exfiltration - The unauthorized transfer of information out of a system.
+- Edge AI - Running AI models on or near the devices that generate the data instead of sending it to a remote server for processing.
 - Embedding - A numerical representation of content that helps computers compare its meaning or characteristics.
+- Federated learning - A way to train a shared model by combining updates from multiple devices or organizations without pooling their raw training data.
 - Fine-tuning - Further training a pretrained model on examples to adapt its behavior by updating model weights.
 - Foundation model - An AI model trained on broad data that can be adapted to many different tasks.
 - Frontier model - An AI model considered among the most capable available at a given time.
@@ -37,3 +39,4 @@
 - Top-P - A setting that limits the next token choice to the smallest group of most likely tokens whose combined probability reaches a chosen threshold, such as 90%.
 - Top-K - A setting that limits the next token choice to the K most likely tokens.
 - Vectors - Ordered lists of numbers used to represent data, such as the features or meaning of content.
+- Zero-shot prompting - Asking an AI model to perform a task without including worked examples in the prompt.
